@@ -2,7 +2,7 @@
 
 **InfoSphere** é uma rede social exclusiva para notícias, combinando funcionalidades inspiradas no LinkedIn e um design baseado no Twitter. O objetivo é oferecer um ambiente onde as pessoas possam compartilhar e consumir informações relevantes, além de criar seus próprios posts relacionados a notícias.
 
-##Tecnologias Utilizadas
+**Tecnologias Utilizadas**
 - **Front-end** : HTML, CSS, JavaScript
 - **Back-end** : PHP
 - **Banco de Dados** : MySQL
