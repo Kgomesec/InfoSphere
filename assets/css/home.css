@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: white;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10%;
+    height: 100%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    gap: 3.5rem;
+}
+
+.conteudo nav img {
+    width: 2rem;
+    margin-left: 0.2rem;
+}
+
+.conteudo nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.conteudo nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo nav ul .new-post {
+    border: 3px solid #8B32F9;
+    border-radius: 20px;
+}
+
+.conteudo nav a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.conteudo nav a span {
+    color: white;
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+    margin-top: 0.15rem;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.user .user-image img {
+    width: 100%;
+}
+
+.user-image {
+    width: 50px;
+    border: 1px solid #8B32F9;
+    border-radius: 50%;
+}
+
+.nav-user {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
