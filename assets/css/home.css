@@ -9,6 +9,8 @@ body {
     background-color: #000000;
     color: white;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1fr;
 }
 
 header {
@@ -87,8 +89,67 @@ header {
     border-radius: 50%;
 }
 
+.user p {
+    font-size: 1rem;
+}
+
+.user .nickname {
+    font-size: 10pt;
+    color: #6D7276;
+}
+
 .nav-user {
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+main .conteudo {
+    width: 100%;
+    border-left: 1px solid #2F3336;
+    border-right: 1px solid #2F3336;
+}
+
+main .header-conteudo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #2F3336;
+}
+
+main .header-conteudo div {
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+    padding: 0.3rem 0;
+    color: white;
+    padding: 5px 10% 20px;
+}
+
+footer .search {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 14px 2rem;
+    background-color: #202327;
+    border: 0;
+    border-radius: 2rem;
+    color: white;
+    width: 100%;
 }
