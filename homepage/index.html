@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div class="conteudo">
+        <div class="conteudo header padding">
             <div class="logo">
                 <img src="../assets/images/logo.png" alt="InfoSphere">
             </div>
@@ -41,27 +41,486 @@
     </header>
     <main>
         <div class="conteudo">
-            <div class="header-conteudo">
-                <div>
-                    <p>For You</p>
+            <div class="sticky-header">
+                <div class="header-conteudo">
+                    <div class="fixed-header">
+                        <div class="div">
+                            <p>For You</p>
+                        </div>
+                        <div class="div">
+                            <p>Following</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <p>Following</p>
-                </div>
-            </div>
-            <!-- <div class="search">
-                <input type="text" placeholder="Search">
-            </div>
-            <div class="posts">
-                <div class="post">
+                <div class="posts">
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="user">
+                            <div class="display-row-header">
+                                <div class="image">
+                                    <div class="imageuser-post">
+                                        <img src="../assets/images/userdefault.png" alt="User">
+                                    </div>
+                                </div>
+                                <div class="display-column">
+                                    <div class="user-info">
+                                        <p>Nome do usuário</p>
+                                        <p><span>@usuario • 11h</span></p>
+                                    </div>
+                                    <div class="text-container">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nunc nec
+                                            libero
+                                            ultricies
+                                            aliquet. Nullam nec nunc nec libero ultricies aliquet.</p>
+                                    </div>
+                                    <div class="post-content">
+
+                                    </div>
+                                    <div class="post-actions">
+                                        <div class="left">
+                                            <div class="like action">
+                                                <img src="../assets/images/like.svg" alt="Like">
+                                                <span>12</span>
+                                            </div>
+                                            <div class="comment action">
+                                                <img src="../assets/images/comments.svg" alt="Comment">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="views action">
+                                                <img src="../assets/images/views.svg" alt="Views">
+                                                <span>30</span>
+                                            </div>
+                                            <div class="share action">
+                                                <img src="../assets/images/share.svg" alt="Share">
+                                                <span>5</span>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="favorite">
+                                                <img src="../assets/images/favorite.svg" alt="Favorite">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="post">
                     <div class="user">
-                        <div class="user-image
-                        ">
+                        <div class="user-image">
                             <img src="../assets/images/userdefault.png" alt="User">
                         </div>
                         <div class="user-info">
                             <p>Nome do usuário</p>
-                            <p class="nickname">@usuario</p>
+                            <p class="nickname">@usuario · Nov 26</p>
                         </div>
                     </div>
                     <div class="post-content">
@@ -85,34 +544,17 @@
                         </div>
                     </div>
                 </div> -->
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-        <input type="text" placeholder="Search" class="search">
-        <!-- <div class="footer-logo">
-                <img src="../assets/images/logo.png" alt="InfoSphere">
+        <div class="search-input">
+            <div class="fixed-search">
+                <input type="text" placeholder="Search" class="search">
             </div>
-            <div class="footer-nav">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Notifications</a></li>
-                        <li><a href="#">Messages</a></li>
-                        <li><a href="#">Favorites</a></li>
-                        <li><a href="#">More</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer-social">
-                <nav>
-                    <ul>
-                        <li><a href="#"><img src="../assets/images/facebook.svg" alt="Facebook"></a></li>
-                        <li><a href="#"><img src="../assets/images/twitter.svg" alt="Twitter"></a></li>
-                        <li><a href="#"><img src="../assets/images/instagram.svg" alt="Instagram"></a></li>
-                        <li><a href="#"><img src="../assets/images/linkedin.svg" alt="LinkedIn"></a></li>
-                    </ul>
-                </nav>
-            </div> -->
+        </div>
+
     </footer>
 </body>
 
