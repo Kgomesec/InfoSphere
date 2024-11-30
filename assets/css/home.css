@@ -139,6 +139,8 @@ main .header-conteudo {
     border-bottom: 1px solid #2F3336;
     position: sticky;
     top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(15px);
 }
 
 main .header-conteudo .div {
@@ -194,6 +196,25 @@ main .text-container {
     display: flex;
     flex-direction: column;
     width: 100%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+main .post-content {
+    display: inline-block;
+    border: 1px solid #2F3336;
+    min-height: 250px;
+    max-height: 514px;
+    width: max-content;
+    border-radius: 1rem;
+}
+
+main .post-content .midia {
+    height: 100%;
+    width: auto;
+    border-radius: 1rem;
+    object-fit: contain;
+    max-width: 520px;
 }
 
 main .display-row-header {
@@ -211,6 +232,7 @@ main .display-column {
 main .post-actions {
     display: flex;
     flex-direction: row;
+    color: rgb(113, 118, 123);
 }
 
 main .post-actions .left {
