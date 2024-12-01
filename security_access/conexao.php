@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
+$host = 'localhost:3308';
 $username = 'root';
 $password = '';
-$database = '';
+$database = 'infosphere';
 
 $mysqli = new mysqli($host, $username, $password, $database);
 

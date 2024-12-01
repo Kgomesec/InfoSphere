@@ -93,8 +93,10 @@ header {
 
 .user-image {
     width: 50px;
+    height: 50px;
     border: 1px solid #8B32F9;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .user p {
@@ -252,6 +254,51 @@ main .post-actions .right {
     display: flex;
     width: 100%;
     justify-content: end;
+}
+
+main .post-actions svg {
+    fill: #6D7276;
+}
+
+main .post-actions .like:hover {
+    color: red;
+    transition: .5s;
+}
+main .post-actions .like:hover svg {
+    fill: red;
+    transition: .5s;
+}
+
+main .post-actions .comment:hover {
+    color: #8B32F9;
+    transition: .5s;
+}
+main .post-actions .comment:hover svg {
+    fill: #8B32F9;
+    transition: .5s;
+}
+
+main .post-actions .views:hover {
+    color: rgb(140, 208, 39);
+    transition: .5s;
+}
+main .post-actions .views:hover svg {
+    fill: rgb(140, 208, 39);
+    transition: .5s;
+}
+
+main .post-actions .share:hover {
+    color: #8B32F9;
+    transition: .5s;
+}
+main .post-actions .share:hover svg {
+    fill: #8B32F9;
+    transition: .5s;
+}
+
+main .post-actions .favorite:hover svg {
+    fill: #FFD700;
+    transition: .5s;
 }
 
 footer {

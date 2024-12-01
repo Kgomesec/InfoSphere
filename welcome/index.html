@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoSphere | Welcome</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #1e1e1e; /* Fundo escuro */
+            color: #e0e0e0; /* Texto claro */
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #ffffff; /* Título em branco */
+        }
+        .button-container {
+            display: flex;
+            gap: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff; /* Cor do texto do botão */
+            background-color: #6a0dad; /* Fundo roxo */
+            border: 1px solid #4b0082; /* Borda roxa mais escura */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            outline: none; /* Remove o contorno */
+        }
+        button:hover {
+            background-color: #4b0082; /* Cor ao passar o mouse */
+        }
+        button:active {
+            transform: scale(0.95); /* Efeito de clique */
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo ao InfoSphere!</h1>
+    <div class="button-container">
+        <button onclick="window.location.href='login/'">Login</button>
+        <button onclick="window.location.href='signUp/'">Sign Up</button>
+    </div>
+</body>
+</html>
