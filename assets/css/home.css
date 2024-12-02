@@ -13,7 +13,7 @@ body {
     grid-template-columns: 1fr 1.3fr 1fr;
 }
 
-header {
+.header-container {
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -29,11 +29,11 @@ header {
     gap: 2.5rem;
 }
 
-.header {
+.headernb {
     position: fixed;
 }
 
-.padding {
+.paddingnb {
     padding-right: 2rem;
 }
 
@@ -73,25 +73,25 @@ header {
     margin-top: 0.15rem;
 }
 
-.logo {
+.logonb {
     width: 100%;
 }
 
-.logo img {
+.logonb img {
     width: 50px;
 }
 
-.user {
+.usernb {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.user .user-image img {
+.usernb .user-imagenb img {
     width: 100%;
 }
 
-.user-image {
+.user-imagenb {
     width: 50px;
     height: 50px;
     border: 1px solid #8B32F9;
@@ -99,16 +99,16 @@ header {
     overflow: hidden;
 }
 
-.user p {
+.usernb p {
     font-size: 1rem;
 }
 
-.user .nickname {
+.usernb .nickname {
     font-size: 10pt;
     color: #6D7276;
 }
 
-.nav-user {
+.nav-usernb {
     display: flex;
     flex-direction: column;
     gap: 3.5rem;

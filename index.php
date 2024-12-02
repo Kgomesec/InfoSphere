@@ -16,36 +16,36 @@
 </head>
 
 <body>
-    <header>
-        <div class="conteudo header padding">
-            <div class="logo">
+    <div class="header-container">
+        <div class="conteudo headernb paddingnb">
+            <div class="logonb">
                 <img src="assets/images/logo.png" alt="InfoSphere">
             </div>
-            <div class="nav-user">
+            <div class="nav-usernb" style="padding-top: 20%;">
                 <nav>
                     <ul>
                         <li><a href="#"><img src="assets/images/home.svg"> <span>Home</span></a></li>
                         <li><a href="#"><img src="assets/images/notifications.svg"> <span>Notifications</span></a>
                         </li>
-                        <li><a href="#"><img src="assets/images/message.svg"> <span>Messages</span></a></li>
-                        <li><a href="#"><img src="assets/images/star.svg"> <span>Favorites</span></a></li>
+                        <li><a href="#"><img src="assets/images/message.svg"> <span>Messages</span></a></li>    
                         <li><a href="#"><img src="assets/images/menu.svg"> <span>More</span></a></li>
                         <li class="new-post"><a href="#"><img src="assets/images/add.svg"> <span>New post</span></a>
                         </li>
                     </ul>
                 </nav>
-                <div class="user">
-                    <div class="user-image">
+                <div class="usernb" style="margin-top: 5%;">
+                    <div class="user-imagenb">
                         <img src="<?php echo str_replace('../../', '', $_SESSION['foto']); ?>" alt="User">
                     </div>
                     <div class="user-info">
                         <p><?php echo $_SESSION['nome']; ?></p>
                         <p class="nickname"><?php echo "@".$_SESSION['username']; ?></p>
                     </div>
+                    <a href="security_access/logout.php"><img src="assets/images/more.svg" alt=""></a>
                 </div>
             </div>
         </div>
-    </header>
+    </div class="header-container">
     <main>
         <div class="conteudo">
             <div class="sticky-header">
@@ -151,8 +151,6 @@
                 <input type="text" placeholder="Search" class="search">
             </div>
         </div>
-
     </footer>
 </body>
-
 </html>
