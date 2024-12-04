@@ -8,3 +8,5 @@
 - **Banco de Dados** : MySQL
 
 Este projeto é focado em desenvolvimento web e está em fase inicial. Fique à vontade para acompanhar a evolução! 🚀
+
+GRUPO: Kauã (full-stack), carlos (design), arthur (banco de dados), jhonathan (back-end), heitor (???)
